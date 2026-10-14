@@ -1,0 +1,11 @@
+[package]
+name = "loha"
+version = "1.0.0"
+edition = "2021"
+authors = ["Abhishek Pratap Singh"]
+description = "Loha, a chess engine converted from the original C engine"
+license = "MIT"
+
+[[bin]]
+name = "loha"
+path = "src/main.rs"

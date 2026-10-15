@@ -6,6 +6,10 @@ authors = ["Abhishek Pratap Singh"]
 description = "Loha, a chess engine converted from the original C engine"
 license = "MIT"
 
+[lib]
+name = "loha"
+path = "src/lib.rs"
+
 [[bin]]
 name = "loha"
-path = "src/main.rs"
+path = "src/bin/loha.rs"
